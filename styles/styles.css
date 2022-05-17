@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .big {
@@ -17,7 +18,7 @@ body {
 }
 
 .box {
-    width: 38vw;
+    width: 35vw;
     border-radius: 5px;
     background-color: white;
     padding: 2% 0;
@@ -59,27 +60,6 @@ form {
     justify-content: center;
 }
 
-.forget {
-    margin: 8px;
-    text-decoration: none;
-    font-size: 12px;
-    cursor: pointer;
-    color: #1877f2;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.pg {
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
-.cpg {
-    font-size: 12px;
-    text-align: center;
-}
-
 .divider {
     margin: 8px;
     border-bottom: 1px solid #dadde1;
@@ -98,3 +78,39 @@ form {
     font-weight: bold;
     justify-content: center;
 }
+
+.forget {
+    margin: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    color: #1877f2;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pg {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.cpg {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.pgdiv {
+    width: 35vw;
+    margin-left: 40px;
+}
+
+img {
+    height: 9vw;
+    margin: -5px;
+    margin-top: 10%;
+}
+
+.fconnect {}
