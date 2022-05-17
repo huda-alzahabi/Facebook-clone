@@ -79,3 +79,22 @@ form {
     font-size: 12px;
     text-align: center;
 }
+
+.divider {
+    margin: 8px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.create {
+    padding: 6px 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
