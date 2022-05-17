@@ -131,3 +131,33 @@ img {
     font-size: 2vw;
     width: 80%;
 }
+
+@media only screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+    .big {
+        padding: 0;
+    }
+    .container {
+        margin-left: auto;
+        margin-top: 0;
+    }
+    .box {
+        width: 40vw;
+        margin-left: auto;
+    }
+    img {
+        height: 12vw;
+        margin: 0;
+    }
+    .fconnect {
+        margin-left: 10%;
+        font-size: 2vw;
+        width: 100%;
+    }
+    .pgdiv {
+        width: 40vw;
+        margin-left: 0px;
+    }
+}
