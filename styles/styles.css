@@ -18,7 +18,7 @@ body {
 }
 
 .box {
-    width: 35vw;
+    width: 30vw;
     border-radius: 5px;
     background-color: white;
     padding: 2% 0;
@@ -28,6 +28,10 @@ body {
 .rightcont {
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+.leftcont {
     width: 50%;
 }
 
@@ -103,14 +107,19 @@ form {
 }
 
 .pgdiv {
-    width: 35vw;
+    width: 30vw;
     margin-left: 40px;
 }
 
 img {
-    height: 9vw;
-    margin: -5px;
-    margin-top: 10%;
+    height: 8vw;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
-.fconnect {}
+.fconnect {
+    margin-top: -5px;
+    margin-left: 15%;
+    font-size: 2vw;
+    width: 80%;
+}
