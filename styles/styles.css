@@ -163,7 +163,9 @@ img {
 }
 
 .firstlist {
-    padding-top: 3%;
+    width: 70%;
+    padding-top: 2%;
+    justify-content: space-between;
 }
 
 .secondlist>li {
@@ -172,7 +174,11 @@ img {
 }
 
 .secondlist {
-    margin-left: 4px;
+    margin-left: 1%;
+}
+
+.secondlist>:last-child {
+    margin-left: 0%;
 }
 
 .footer_divider {
@@ -181,7 +187,11 @@ img {
     margin-left: 6%;
 }
 
-@media only screen and (max-width: 900px) {
+.copyright {
+    margin-left: 6%;
+}
+
+@media only screen and (max-width: 1075px) {
     .container {
         flex-direction: column;
     }
