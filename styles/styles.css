@@ -120,7 +120,7 @@ form {
 }
 
 img {
-    height: 8vw;
+    height: 18vh;
     margin-top: 5%;
     margin-left: 10%;
 }
@@ -184,7 +184,7 @@ img {
 .footer_divider {
     border-bottom: 1px solid #dadde1;
     width: 95%;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 
 .copyright {
@@ -207,7 +207,7 @@ img {
         margin-left: auto;
     }
     img {
-        height: 12vw;
+        height: 20vh;
         margin: 0;
     }
     .fconnect {
@@ -218,5 +218,18 @@ img {
     .pgdiv {
         width: 40vw;
         margin-left: 0px;
+    }
+    .pagefooter {
+        width: 90%;
+        font-size: 1.5vw;
+    }
+    .pagefooter>ul>li>a {
+        font-size: 1.5vw;
+    }
+    .firstlist {
+        width: 90%;
+    }
+    .copyright {
+        margin-left: 8%;
     }
 }
