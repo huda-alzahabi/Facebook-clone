@@ -132,10 +132,19 @@ img {
     width: 80%;
 }
 
-.pagefooter {
+.pagefooter>ul>li {
     width: auto;
     margin: 40px;
+    list-style-type: none;
 }
+
+.pagefooter>ul>li>a {
+    text-decoration: none;
+}
+
+.languages {}
+
+.midfooter {}
 
 @media only screen and (max-width: 900px) {
     .container {
