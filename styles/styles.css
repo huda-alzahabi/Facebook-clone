@@ -134,15 +134,19 @@ img {
 
 .pagefooter {
     color: #737373;
-    width: 980px;
+    width: 78%;
+    font-size: 0.9vw;
     margin: 0 auto;
+    margin-left: 7%;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .pagefooter>ul {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    text-align: left;
 }
 
 .pagefooter>ul>li {
@@ -154,12 +158,28 @@ img {
 .pagefooter>ul>li>a {
     text-decoration: none;
     color: #737373;
+    font-size: 0.9vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.languages {}
+.firstlist {
+    padding-top: 3%;
+}
 
-.midfooter {}
+.secondlist>li {
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+}
+
+.secondlist {
+    margin-left: 4px;
+}
+
+.footer_divider {
+    border-bottom: 1px solid #dadde1;
+    width: 95%;
+    margin-left: 6%;
+}
 
 @media only screen and (max-width: 900px) {
     .container {
